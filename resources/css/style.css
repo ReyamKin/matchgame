@@ -1,0 +1,72 @@
+/* Google font list
+font-family: 'Work Sans', sans-serif; */
+
+/* Universal Styles */
+div {
+  border: 1px solid red;
+}
+
+#bold {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  background-color: rgb(255, 242, 242);
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* Instructions */
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-top: 5.25rem;
+  color: rgb(32,64,86);
+}
+
+#pcolor {
+  color: rgb(74,74,74);
+}
+
+#game {
+  margin-top: 5.25rem;
+}
+
+.card {
+  height: 12.5rem;
+  border: 4px solid #ffffff;
+  border-radius: 8px;
+  background-color: rgb(32,64,86);
+}
+
+.cardup {
+  display: flex;
+  height: 12.5rem;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 7rem;
+  color: rgb(204,204,204);
+  border: 4px solid #ffffff;
+  border-radius: 8px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.cardmatch {
+  display: flex;
+  height: 12.5rem;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 7rem;
+  color: rgb(204,204,204);
+  border: 4px solid #ffffff;
+  border-radius: 8px;
+  background-color: rgb(153,153,153);
+  cursor: pointer;
+}
